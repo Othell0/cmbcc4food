@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cs.cmbcc4food.Activity.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout_control_accessibility"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:onClick="openAccessibility"
+        android:background="#fff" android:textColor="#858585"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:orientation="vertical"
+        android:layout_weight="0.3"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+        <ImageView android:layout_width="32dp" android:layout_height="32dp"
+            android:id="@+id/layout_control_accessibility_icon"
+            android:layout_marginBottom="4dp" android:layout_marginTop="4dp"
+            android:background="@drawable/ic_start"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/run_app"
+            android:id="@+id/layout_control_accessibility_text" android:layout_margin="5dp" android:textColor="#dfaa6a"/>
+    </LinearLayout>
+</RelativeLayout>
