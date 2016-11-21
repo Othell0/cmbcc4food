@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">CMBcc4food</string>
+    <string name="app_name">CMBCC4food</string>
     <string name="run_app">开启插件</string>
-    <string name="app_description">∠( ᐛ 」∠)_使用指南∠( ᐛ 」∠)_\\n\\n ○ 狠戳插件开关\\n ○ 回到微信聊天\\n ○ 坐等红包进账\\n\\n 遇到问题, 欢迎通过 GitHub Issue 反馈~\\n https://github.com/geeeeeeeeek/WeChatLuckyMoney</string>
+    <string name="app_description">开启服务去抢券（￣︶￣)↗[GO!], 项目在GitHub开源了https://github.com/Othell0/cmbcc4food</string>
     <string name="service_off">关闭</string>
     <string name="service_on">开启</string>
 </resources>
